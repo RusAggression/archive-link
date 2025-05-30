@@ -1,0 +1,58 @@
+# Copyright (C) 2025 Prometheus
+# This file is distributed under the same license as the Archive Link Block plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Archive Link Block 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/archive-link\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-05-30T03:38:57+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: archive-link\n"
+
+#. Plugin Name of the plugin
+#: index.php
+msgid "Archive Link Block"
+msgstr ""
+
+#. Description of the plugin
+#: index.php
+msgid "A custom Gutenberg block for inserting post archive permalinks"
+msgstr ""
+
+#. Author of the plugin
+#: index.php
+msgid "Prometheus"
+msgstr ""
+
+#: build/index.js:1
+msgid "Archive Link Settings"
+msgstr ""
+
+#: build/index.js:1
+msgid "Post Type"
+msgstr ""
+
+#: build/index.js:1
+msgid "Link Text"
+msgstr ""
+
+#: build/index.js:1
+msgid "Open in new tab"
+msgstr ""
+
+#: build/block.json
+#: src/block.json
+msgctxt "block title"
+msgid "Archive Link"
+msgstr ""
+
+#: build/block.json
+#: src/block.json
+msgctxt "block description"
+msgid "A block for inserting links to post type archives"
+msgstr ""

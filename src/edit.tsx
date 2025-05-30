@@ -24,7 +24,7 @@ interface FetchResponse {
 export function Edit( {
 	attributes,
 	setAttributes,
-}: BlockEditProps< ArchiveLinkAttributes > ) {
+}: Readonly< BlockEditProps< ArchiveLinkAttributes > > ) {
 	const { postType, label, openInNewTab, url } = attributes;
 	const blockProps = useBlockProps();
 

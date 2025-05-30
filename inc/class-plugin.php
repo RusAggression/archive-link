@@ -24,5 +24,8 @@ final class Plugin {
 
 		$path = dirname( __DIR__ ) . '/build';
 		register_block_type( $path );
+
+		$script_handle = generate_block_asset_handle( 'archive-link/archive-link', 'editorScript' );
+		wp_set_script_translations( $script_handle, 'archive-link', plugin_dir_path( __DIR__ ) . 'lang' );
 	}
 }
