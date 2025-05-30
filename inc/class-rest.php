@@ -32,10 +32,10 @@ final class REST {
 	}
 
 	public function post_archive_link_url_callback( WP_REST_Request $request ): WP_REST_Response|WP_Error {
-		$post_type = sanitize_key( $request->get_param( 'type' ) ?? 'post' );
+		$post_type = sanitize_key( (string) ( $request->get_param( 'type' ) ?? 'post' ) );
 
 		if ( 'post' === $post_type && get_option( 'page_for_posts' ) ) {
-			$url = get_permalink( get_option( 'page_for_posts' ) );
+			$url = get_permalink( (int) get_option( 'page_for_posts' ) );
 		} else {
 			$url = get_post_type_archive_link( $post_type );
 		}
