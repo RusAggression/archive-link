@@ -1,0 +1,34 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "archive-link/archive-link",
+	"version": "1.0.0",
+	"title": "Archive Link",
+	"category": "design",
+	"parent": [ "core/navigation" ],
+	"icon": "archive",
+	"description": "A block for inserting links to post type archives",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "archive-link",
+	"editorScript": "file:./index.tsx",
+	"attributes": {
+		"postType": {
+			"type": "string",
+			"default": "post"
+		},
+		"label": {
+			"type": "string",
+			"default": ""
+		},
+		"openInNewTab": {
+			"type": "boolean",
+			"default": false
+		},
+		"url": {
+			"type": "string",
+			"default": "#"
+		}
+	}
+}
